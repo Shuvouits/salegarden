@@ -1,0 +1,58 @@
+/*
+ * Bangladesh Travel Apps
+ * @author - Olivine Limited
+ * @developer - Khairul Islam
+ * @version 1
+ * @date 19/01/2017
+ * To edit something please inform or edit carefully
+ */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    padding-right: 0px !important;
+
+}
+input[type='file'].form-control {
+    height: auto;
+}
+.modal, .modal-open {
+    overflow: auto;
+}
+.btn-default{
+    margin-bottom: 3px !important;
+    border: 1px solid grey !important;
+}
+.btn-group-sm > .btn, .btn-sm{
+    padding: 3px 6px !important;
+}
+.label-default{
+    background-color: #1e4770 !important;
+    border: 1px solid #1e4770 !important;
+    color: #fff;
+}
+#mark{
+    color: red;
+}
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+.bootstrap-tagsinput{
+    width:100%;
+}
+#show_image{
+    height: 100px;
+    width: auto;
+}
+.comma:not(:first-child) {
+    margin-left: -.2em;  
+}
+
+.comma:empty {
+    display: none;
+}
+
+.comma:not(:first-child):before {
+    content: ", ";
+}
